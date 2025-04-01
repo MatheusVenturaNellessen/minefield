@@ -2,7 +2,9 @@
 <p>Um joguinho de campo minado desenvolvido em C com objetivo de, ao informar uma linha e coluna, não selecionar uma bomba aleatória. A cada acerto, mais 1 ponto e, ao atingir 5 pontos, o usuário vence o jogo.</p>
 
 <h2>Demonstração do programa</h2>
-<img src="./demonstration.gif" alt="Imagem animada de demonstração do programa">
+<div align="center">
+  <img src="./demonstration.gif" alt="Imagem animada de demonstração do programa" width="888px">
+</div>
 
 <h2>Tecnologias utilizadas</h2>
 <ul>
@@ -53,3 +55,10 @@
           <pre>./campo_minado</pre>
       </ul>
 </ul>
+
+<h2>Contribuições</h2>
+<p>Este projeto está aberto para contribuições através de issues. Caso você tenha encontrado um bug, queira sugerir uma melhoria ou tenha dúvidas sobre o funcionamento do projeto, por favor, siga as instruções abaixo:</p>
+<ol>
+    <li>Verifique se já existe uma issue da situação aberta. Se já existir, adicione seu comentário na issue existente;
+    <li>Caso não tenha sido aberta, crie uma issue nova.
+</ol>
