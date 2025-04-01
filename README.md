@@ -1,0 +1,55 @@
+<h1>Campo Minado</h1>
+<p>Um joguinho de campo minado desenvolvido em C com objetivo de, ao informar uma linha e coluna, não selecionar uma bomba aleatória. A cada acerto, mais 1 ponto e, ao atingir 5 pontos, o usuário vence o jogo.</p>
+
+<h2>Demonstração do programa</h2>
+<img src="./demonstration.gif" alt="Imagem animada de demonstração do programa">
+
+<h2>Tecnologias utilizadas</h2>
+<ul>
+  <li>C
+  <li>Code::Blocks - Versão: 20.03
+</ul>
+
+<h2>Depedências</h2>
+<ul>
+  <li>Compilador GCC (ou IDE Code::Blocks);
+  <li>Bibliotecas:
+    <ul>
+      <li>stdio.h
+      <li>stdlib.h
+      <li>locale.h
+      <li>time.h
+      <li>windows.h
+    </ul>
+</ul>
+
+<h2>Como rodar o projeto</h2>
+<ul>
+  <li>Pelo Code::Blocks:
+    <ol>
+      <li>Navegue até o diretório pretendido:      
+        <pre>cd caminho\do\diretorio</pre>
+      <li>No diretório escolhido, clone o repositório:
+        <pre>git clone https://github.com/MatheusVenturaNellessen/minefield.git</pre>
+      <li>Abra o Code::Blocks;
+      <li>Vá em <strong>File > Open</strong> e selecione o arquivo <strong>campo_minado.cbp</strong>;
+      <li>Clique em <strong>Build and Run</strong> para compilar e executar o jogo.
+    </ol>
+  <li>Pelo Terminal:</li>
+  <p>É necessário possuir o GCC instalado!</p>
+    <ol>
+      <li>Abra o terminal;
+      <li>Navegue até o diretório pretendido:
+        <pre>cd caminho\do\diretorio</pre>
+      <li>No diretório escolhido, clone o repositório:
+        <pre>git clone https://github.com/MatheusVenturaNellessen/minefield.git</pre>
+      <li>Compile o código com GCC:
+        <pre>gcc campo-minado.c -o campo-minado</pre>
+      <li>Execute o programa compilado:
+       <ul>
+         <li>Windows:
+          <pre>campo_minado.exe</pre>
+        <li>Linux/macOS:
+          <pre>./campo_minado</pre>
+      </ul>
+</ul>
