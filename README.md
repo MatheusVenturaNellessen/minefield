@@ -56,6 +56,14 @@
       </ul>
 </ul>
 
+<h2>Problemas encontrados</h2>
+<ol>
+  <li>Erro no compilador (no Code::Blocks)
+    <ul>
+      <li>Solução: Com a IDE aberta, clique em <strong>Settings > Compiler</strong>, irá abrir um menu, em <strong>Global compiler settings</strong> em <strong>Select compiler</strong> selecione a opção <strong>GNU GCC Compiler</strong> (caso não esteja), após clique em <strong>Reset defaults > Sim > Sim > Ok</strong>.
+    </ul>
+</ol>
+
 <h2>Contribuições</h2>
 <p>Este projeto está aberto para contribuições através de issues. Caso você tenha encontrado um bug, queira sugerir uma melhoria ou tenha dúvidas sobre o funcionamento do projeto, por favor, siga as instruções abaixo:</p>
 <ol>
